@@ -1,0 +1,15 @@
+# Ignore dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Ignore environment variables (secrets)
+.env
+backend/.env
+
+# Ignore database files (if you want to keep your local data private)
+backend/database.sqlite
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
